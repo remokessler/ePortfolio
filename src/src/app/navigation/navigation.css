@@ -1,0 +1,7 @@
+.navigation {
+  position: relative;
+}
+.navigation > div:hover{
+  background-color: #80d8ff;
+  cursor: pointer;
+}
