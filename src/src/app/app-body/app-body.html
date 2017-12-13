@@ -1,8 +1,10 @@
 <div class="row">
+  <navigation [appBody]="this"></navigation>
+</div>
+<div class="row">
   <div class="col s1"></div>
   <div class="col s10">
-    <navigation [appBody]="this"></navigation>
-    <div class="white">
+    <div class="white z-depth-3">
       <home-page *ngIf="activePage == 'home'"></home-page>
       <logo-page *ngIf="activePage == 'logo'"></logo-page>
       <foto-page *ngIf="activePage == 'foto'"></foto-page>

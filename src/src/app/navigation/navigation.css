@@ -1,7 +1,7 @@
 .navigation {
   position: relative;
 }
-.navigation > div:hover{
-  background-color: #80d8ff;
+.navigation > div:hover:not(:first-child){
+  background-color: #757575;
   cursor: pointer;
 }
