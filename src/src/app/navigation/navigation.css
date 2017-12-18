@@ -5,3 +5,7 @@
   background-color: #757575;
   cursor: pointer;
 }
+
+.navigation > div > img{
+  margin: 5px;
+}
