@@ -1,5 +1,5 @@
 import {Component, Input} from '@angular/core';
-import {AppBodyComponent} from '../app-body/app-body';
+import {AppBodyComponent} from '../app-body/appBody';
 
 @Component({
   selector: 'navigation',

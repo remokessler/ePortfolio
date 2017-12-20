@@ -1,0 +1,10 @@
+.modal.bottom-sheet {
+  max-height: 100%;
+}
+a > img {
+  height: auto;
+  width: 200px;
+}
+img {
+  max-width:100%;
+}
